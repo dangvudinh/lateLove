@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url('./asset/background2.jpg') no-repeat;
+    background-size: cover;
+    animation: fadeIn 3s;
+}
+
+.content1 {
+    color: azure;
+    position: absolute;
+    font-size: 8vh;
+    left: 10vw;
+    top: 35vh;
+    animation: fadeInLeft 1s;
+}
+
+.content2 {
+    color: azure;
+    position: absolute;
+    font-size: 5vh;
+    left: 15vw;
+    top: 45vh;
+    animation: fadeInRight 1s;
+    display: none;
+}
+
+
+@media (max-width: 750px) {
+    body{
+        padding: 0;
+        margin: 0;
+        background: url('./asset/background3.jpg') no-repeat;
+        background-size: cover;
+    }  
+}
+
+
+
+
+
+

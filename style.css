@@ -1,0 +1,43 @@
+body{margin:0;height:100%;overflow: hidden;}
+#canvas{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 0;
+    background-image: url("./asset/background.jpg");
+}
+.letters{
+    position: absolute;
+}
+
+.letter {
+    position: absolute;
+    width: 25vw;
+    z-index: 1;
+    top: 20vh;
+    left: 38vw;
+
+}
+.lt1{
+    top: 25vh;
+    rotate: -30deg;
+}
+
+.lt2{
+}
+
+.lt3{
+    rotate: 20deg;
+    top: 20vh;
+    left: 35vw;   
+}
+
+.lt4{
+    filter: contrast(1);
+}
+
+.lt5{
+    rotate: 20deg;
+    left: 38vw;
+}
+
