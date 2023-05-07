@@ -42,7 +42,7 @@ body{margin:0;height:100%;overflow: hidden;}
     left: 38vw;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1080px) {
     .letter {
         position: absolute;
         width: 55vw;
