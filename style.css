@@ -50,7 +50,7 @@ body{margin:0;height:100%;overflow: hidden;}
         top: 30vh;
         left: 25vw;
     }
-    #canvas{
+    #canvas{  
         position:absolute;
         top:0;
         left:0;
