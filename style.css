@@ -4,7 +4,8 @@ body{margin:0;height:100%;overflow: hidden;}
     top:0;
     left:0;
     z-index: 0;
-    background-image: url("./asset/background.jpg");
+    background: url("./asset/background.jpg") no-repeat;
+    background-size: cover;
 }
 .letters{
     position: absolute;
@@ -40,4 +41,25 @@ body{margin:0;height:100%;overflow: hidden;}
     rotate: 20deg;
     left: 38vw;
 }
+
+@media (max-width: 750px) {
+    .letter {
+        position: absolute;
+        width: 55vw;
+        z-index: 1;
+        top: 30vh;
+        left: 25vw;
+    }
+    #canvas{
+        position:absolute;
+        top:0;
+        left:0;
+        z-index: 0;
+        background: url("./asset/background4.jpg") no-repeat;
+        background-size: cover;
+
+    }
+
+}
+
 
